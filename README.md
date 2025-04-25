@@ -8,7 +8,7 @@
 sensor:
   - platform: aircat #斐讯M1传感器
     name: m1
-    mac: {'B0F8932396ED':'brightness_m1a'}
+    mac: {'112233445566':'brightness_m1a'}
     brightness_force_update: True
 
 input_select:
