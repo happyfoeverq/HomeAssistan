@@ -1,9 +1,10 @@
 # HomeAssistan
 
-斐讯M1传感器离线插件修改版，适用于 HA Core 2025.1之后版本，原出处见https://bbs.hassbian.com/thread-4952-1-1.html
+## 斐讯M1传感器离线插件修改版
+适用于 HA Core 2025.1之后版本，原出处见https://bbs.hassbian.com/thread-4952-1-1.html
 
 参考配置文件：
-
+```yaml
 sensor:
   - platform: aircat #斐讯M1传感器
     name: m1
@@ -17,3 +18,4 @@ input_select:
       - 关闭
       - 夜间
       - 白天
+```
