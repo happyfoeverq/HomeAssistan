@@ -18,4 +18,34 @@ input_select:
       - 关闭
       - 夜间
       - 白天
+
+group:
+  m1a:
+    name: 客厅M1
+    entities:
+      - sensor.m1_hcho
+      - sensor.m1_humidity
+      - sensor.m1_pm2_5
+      - sensor.m1_temperature
+      - input_select.brightness_m1a
+
+homeassistant:
+  customize:
+    sensor.m1_hcho:
+      icon: mdi:chemical-weapon
+      device_class: hcho 
+      friendly_name: 甲醛
+    sensor.m1_humidity:
+      icon: mdi:water-percent
+      device_class: humidity 
+      friendly_name: 湿度 
+    sensor.m1_pm2_5:
+      icon: mdi:blur
+      device_class: pm25 
+      friendly_name: 空气质量
+    sensor.m1_temperature:
+      #icon: mdi:    
+      device_class: temperature
+      friendly_name: 温度      
+
 ```
