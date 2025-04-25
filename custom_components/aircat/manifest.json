@@ -2,7 +2,7 @@
   "domain": "aircat",
   "name": "m1",
   "version": "1.0.1",
-  "documentation": "https://github.com/happyfoeverq/HomeAssistan/new/main/custom_components",
+  "documentation": "https://github.com/happyfoeverq/HomeAssistan/tree/main/custom_components",
   "dependencies": [],
   "codeowners": [],
   "requirements": []
