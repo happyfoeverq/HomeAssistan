@@ -44,7 +44,7 @@ homeassistant:
       device_class: pm25 
       friendly_name: 空气质量
     sensor.m1_temperature:
-      #icon: mdi:    
+      icon: mdi:thermometer   
       device_class: temperature
       friendly_name: 温度      
 
